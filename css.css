@@ -7,7 +7,7 @@ body{
   height: 100vh;
   background-image: url('https://images.pexels.com/photos/302769/pexels-photo-302769.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
   background-size:100% 100vh;
-  background-repeat: no-repeat; /* Do not repeat the image */
+  background-repeat: no-repeat;
   overflow: hidden;
 }
 
