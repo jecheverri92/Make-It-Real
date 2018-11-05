@@ -1,0 +1,46 @@
+* {
+box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  background-image: url('https://images.pexels.com/photos/302769/pexels-photo-302769.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-size:100% 100vh;
+  background-repeat: no-repeat; /* Do not repeat the image */
+  overflow: hidden;
+}
+
+.box__info{
+  width: 30%;
+  height: 30%;
+  position: absolute;
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+}
+
+.box__info--photo{
+  width: 100px;
+  height: 100px;
+  border: solid 5px white;
+  border-radius: 50%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.box__info--photo img{
+  width: 100%;
+  height: 100%;
+  filter: grayscale(100%);
+}
+
+.box__info--name, .box__info--city{
+  font-family: 'Kaushan Script', cursive;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+}
+
+.box__info--city{
+  font-size: 18px;
+}
